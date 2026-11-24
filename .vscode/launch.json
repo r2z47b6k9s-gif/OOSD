@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test Database Connection",
+            "request": "launch",
+            "mainClass": "database.DatabaseConnection",
+            "vmArgs": "-Djava.library.path=${workspaceFolder}/lib"
+        },
+        {
+            "type": "java",
+            "name": "Run Employee Management System",
+            "request": "launch",
+            "mainClass": "view.LoginPage",
+            "vmArgs": "-Djava.library.path=${workspaceFolder}/lib"
+        }
+    ]
+}
